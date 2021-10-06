@@ -2,3 +2,4 @@
 
 export(bulk_density)
 export(dry_weight)
+import(dplyr)

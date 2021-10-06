@@ -1,5 +1,8 @@
 #' Calculate soil bulk density
 #'
+#' @import dplyr
+#'
+#' @param dataset the dataset containing the parameters
 #' @param core_diameter the diameter of the core used to take the soil sample (units: cm)
 #' @param depth_upper the value of the upper soil depth increment (units: cm)
 #' @param depth_lower the value of the lower soil depth increment (units: cm)
@@ -11,8 +14,9 @@
 #' @export
 #'
 
+# calculate bulk density and add to dataframe
 bulk_density <- function(dataset, core_diameter, depth_upper, depth_lower, coarse_fragment_weight, soil_dry_weight) {
-  enquo(core_diameter)
+  enquo(core_diameter) # enquo() refers to specific column in dataframe
   enquo(depth_lower)
   enquo(depth_upper)
   enquo(soil_dry_weight)

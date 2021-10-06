@@ -8,6 +8,8 @@ Authors@R:
            email = "chantel.chizen@usask.ca",
            comment = c(ORCID = "0000-0001-7680-8610"))
 Description: Commonly used calculations for soil analysis and data processing. The functions can be used across multiple projects.
+Imports:
+    dplyr
 License: `use_ccby_license()`
 Encoding: UTF-8
 LazyData: true

@@ -14,6 +14,8 @@ bulk_density(
 )
 }
 \arguments{
+\item{dataset}{the dataset containing the parameters}
+
 \item{core_diameter}{the diameter of the core used to take the soil sample (units: cm)}
 
 \item{depth_upper}{the value of the upper soil depth increment (units: cm)}

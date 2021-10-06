@@ -14,6 +14,8 @@ dry_weight(
 )
 }
 \arguments{
+\item{dataset}{the dataset containing the parameters}
+
 \item{tin_soil_wet_weight}{the weight of the field moist soil and tin for soil moisture (units: g)}
 
 \item{tin_soil_dry_weight}{the weight of the oven dry soil and tin for soil moisture (units: g)}

@@ -1,5 +1,8 @@
 #' Calculate soil moisture and total soil dry weight
 #'
+#' @import dplyr
+#'
+#' @param dataset the dataset containing the parameters
 #' @param tin_soil_wet_weight the weight of the field moist soil and tin for soil moisture (units: g)
 #' @param tin_soil_dry_weight the weight of the oven dry soil and tin for soil moisture (units: g)
 #' @param tin_weight the tin weight for soil moisture (units: g)
