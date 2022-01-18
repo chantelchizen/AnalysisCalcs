@@ -10,7 +10,7 @@ Authors@R:
 Description: Commonly used calculations for soil analysis and data processing. The functions can be used across multiple projects.
 Depends: R (>= 2.1.0)
 Imports:
-    dplyr
+    dplyr,
     AnalysisCalcs
 License: `use_ccby_license()`
 Encoding: UTF-8
