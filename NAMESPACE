@@ -2,4 +2,6 @@
 
 export(bulk_density)
 export(dry_weight)
+export(summarySE)
 import(dplyr)
+import(plyr)
